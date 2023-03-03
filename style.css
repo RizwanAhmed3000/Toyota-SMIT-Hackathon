@@ -1,0 +1,85 @@
+.imageContainer img{
+    position: relative;
+}
+.textContainer{
+    position: absolute;
+    top: 310px;
+    left: 32px;
+    color: white;
+    font-weight: bold;
+}
+.background{
+    background-color: red;
+    width: fit-content;
+    padding: 5px;
+}
+.NotificationText{
+    padding: 30px 20px;
+}
+.NotificationText a{
+    text-decoration: none;
+    color: #034f6d;
+}
+.NotificationText a:hover{
+    color: red;
+}
+.blockquoteForC{
+    padding: 20px;
+}
+.carouselMargin{
+    padding-bottom: 50px;
+}
+.proconference{
+    top: 298px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 100;
+    background-image: -webkit-linear-gradient(top,transparent,#000)
+}
+.proconferenceContainer{
+    position: relative;
+}
+
+.imageForPro{
+    width: 100%;
+    overflow: hidden;
+}
+
+.imageForPro img{
+    position: absolute;
+    width: 50%;
+}
+.mb-3{
+    margin-bottom: 0px !important;
+    border: none;
+}
+
+.right h2, .left h2{
+    padding: 0px 50px;
+}
+
+.part6{
+    margin-top: 45px;
+}
+
+.forMargin{
+    margin-bottom: 30px !important;
+}
+
+.ImagesPart7{
+    margin: 0px 20px;
+}
+.part7{
+    padding: 20px;
+}
+
+
+@media (max-width: 1024px){
+    .textContainer{
+        top: 230px;
+    }
+    .part6{
+        padding-top: 50px;
+    }
+}
